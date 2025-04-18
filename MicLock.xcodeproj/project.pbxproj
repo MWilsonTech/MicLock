@@ -19,10 +19,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		159631932DB2DD5100D7571B /* MicLock */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MicLock; sourceTree = BUILT_PRODUCTS_DIR; };
+		159631932DB2DD5100D7571B /* MicLockAgent */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MicLockAgent; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		1505ACBD2DB2F60F00C02D87 /* Agent */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Agent;
+			sourceTree = "<group>";
+		};
 		159631952DB2DD5100D7571B /* MicLock */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MicLock;
@@ -44,6 +49,7 @@
 		1596318A2DB2DD5100D7571B = {
 			isa = PBXGroup;
 			children = (
+				1505ACBD2DB2F60F00C02D87 /* Agent */,
 				159631952DB2DD5100D7571B /* MicLock */,
 				159631942DB2DD5100D7571B /* Products */,
 			);
@@ -52,7 +58,7 @@
 		159631942DB2DD5100D7571B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				159631932DB2DD5100D7571B /* MicLock */,
+				159631932DB2DD5100D7571B /* MicLockAgent */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,9 +66,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		159631922DB2DD5100D7571B /* MicLock */ = {
+		159631922DB2DD5100D7571B /* MicLockAgent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1596319A2DB2DD5100D7571B /* Build configuration list for PBXNativeTarget "MicLock" */;
+			buildConfigurationList = 1596319A2DB2DD5100D7571B /* Build configuration list for PBXNativeTarget "MicLockAgent" */;
 			buildPhases = (
 				1596318F2DB2DD5100D7571B /* Sources */,
 				159631902DB2DD5100D7571B /* Frameworks */,
@@ -73,13 +79,14 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				1505ACBD2DB2F60F00C02D87 /* Agent */,
 				159631952DB2DD5100D7571B /* MicLock */,
 			);
-			name = MicLock;
+			name = MicLockAgent;
 			packageProductDependencies = (
 			);
 			productName = MicLock;
-			productReference = 159631932DB2DD5100D7571B /* MicLock */;
+			productReference = 159631932DB2DD5100D7571B /* MicLockAgent */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				159631922DB2DD5100D7571B /* MicLock */,
+				159631922DB2DD5100D7571B /* MicLockAgent */,
 			);
 		};
 /* End PBXProject section */
@@ -254,7 +261,7 @@
 				DEVELOPMENT_TEAM = DTNM25KUJV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -265,7 +272,7 @@
 				DEVELOPMENT_TEAM = DTNM25KUJV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};
@@ -281,7 +288,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1596319A2DB2DD5100D7571B /* Build configuration list for PBXNativeTarget "MicLock" */ = {
+		1596319A2DB2DD5100D7571B /* Build configuration list for PBXNativeTarget "MicLockAgent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1596319B2DB2DD5100D7571B /* Debug */,
